@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Glyph Catch"
+rootProject.name = "Slowbro Catch"
 include(":app")

@@ -39,8 +39,8 @@ class SpawnCoverageTest {
     fun `all stage 1 pokemon should be included in spawn rules`() {
         val context = createMockContext()
 
-        val allPokemon = Pokemon.all.values
-        val stage1Pokemon = allPokemon.filter { it.evolutionRequirement == null }
+        // In the Slowbro version, only Slowpoke and Slowbro are available
+        val requiredPokemon = listOf(Pokemon.SLOWPOKE)
 
         val spawnRules = createSpawnRules(context)
         val pokemonInSpawnRules = mutableSetOf<Int>()
@@ -67,12 +67,12 @@ class SpawnCoverageTest {
             }
         }
 
-        val missingPokemon = stage1Pokemon.filter { it.id !in pokemonInSpawnRules }
+        val missingPokemon = requiredPokemon.filter { it.id !in pokemonInSpawnRules }
 
         if (missingPokemon.isNotEmpty()) {
             val missingNames = missingPokemon.map { "${it.name} (#${it.id})" }
             fail(
-                "The following Stage 1 Pokemon are not included in spawn rules:\n" +
+                "The following required Pokemon are not included in spawn rules:\n" +
                     missingNames.joinToString("\n")
             )
         }
