@@ -14,7 +14,7 @@
     <string name="home_onboarding_step_9">Select Slowbro Catch for Always-on</string>
     <string name="home_onboarding_step_format">%1$d. %2$s</string>
     <string name="home_onboarding_end_1">Leave your phone face-down and the Slowbro Catch clock should appear. If not, cycle using the touch button.</string>
-    <string name="home_onboarding_end_2">Wait a few minutes, and you will meet Slowpoke. Long-press the touch button to catch it. Good luck!</string>
+    <string name="home_onboarding_end_2">Wait a few minutes, and you will meet your first Slowpoke. Long-press the touch button to catch it. Good luck!</string>
     <string name="common_back">Back</string>
     <string name="common_cancel">Cancel</string>
     <string name="common_save">Save</string>
@@ -28,7 +28,7 @@
     <string name="home_progress_percentage">%1$d%%</string>
     <string name="home_progress_label">Discovered</string>
     <string name="home_section_recent_catches">Recent</string>
-    <string name="home_empty_recent_catches">No Slowpoke or Slowbro caught yet. They will appear on the Glyph Matrix when your phone is face-down. Long-press the touch button to catch!</string>
+    <string name="home_empty_recent_catches">No Pokémon caught yet. Slowpoke will appear on the Glyph Matrix when your phone is face-down. Long-press the touch button to catch!</string>
     <string name="home_training_badge">Training</string>
     <string name="home_recent_new_badge">New</string>
     <string name="home_daily_tip_label">Daily Trainer Tips</string>

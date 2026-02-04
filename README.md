@@ -12,7 +12,7 @@
 
 ![Photo of the Glyph Matrix displaying Charmander](/photo.jpg)
 
-Slowbro Catch is a fan-made Slowbro-themed catching game for the Nothing Phone 3 that rewards you for reducing screen time! Leave your phone down a while, and Slowpoke appears on your Glyph Matrix. The longer your phone has been locked, the higher your chance of encountering Slowbro. Press the touch button to catch them and complete your mini-Pokédex!
+Slowbro Catch is a fan-made Slowbro-themed catching game for the Nothing Phone 3 that rewards you for reducing screen time! Leave your phone down a while, and Slowpoke appears on your Glyph Matrix. The longer your phone has been locked, the higher your chance of encountering Slowbro. Press the touch button to catch it and complete your mini-Pokédex!
 
 ![Screenshots: Home screen, Pokédex screen, Pokémon (caught) screen, Bag screen](/visual.png)
 
